@@ -15,7 +15,7 @@ Steps to check for insecure Firebase database:
 5. Test Firebase Authentication: If the application is using Firebase Authentication, test it thoroughly to see if it can be bypassed or if any vulnerabilities exist.
 
 
-How check for Firebase configuration and any sensitive information being passed to the Firebase instance in an Android APK, you can follow these steps:
+How check for Firebase configuration if any sensitive information being passed to the Firebase instance in an Android APK 
 
 1. Extract the APK file using a tool like Apktool or JADX.
 
