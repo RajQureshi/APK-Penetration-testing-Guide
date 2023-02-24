@@ -50,20 +50,3 @@ Steps to check for insecure Firebase database using appspot.com:
 5. Check the data validation rules to ensure that they are properly configured to prevent malicious data insertion.
 
 6. Take the Firebase URL of the Database, replace "firebase.com" with "appspot.com" and try to access the data in the browser, this will show you the data present in the database if the read permissions are enabled and the appspot instance is not secured.
-
-
-
-how to check Debug certificate for check if the application is using Debug certificate
-
-Steps to check for Debug certificate in an Android application:
-
-1. Obtain the APK file of the Android application you want to check.
-
-2. Use a tool such as apktool or Jadx to decompile the APK file into its source code.
-
-3. Look for the file "android:debuggable" in the AndroidManifest.xml file. If the value is set to "true", the application is using a Debug certificate.
-
-4. Alternatively, you can use the keytool command in the command prompt or terminal to check the certificate. Type "keytool -list -v -keystore <path-to-debug-keystore>" and press enter.
-
-5. Look for the "CN=Android Debug,O=Android,C=US" in the output. If it's present, the application is using a debug certificate.
-
